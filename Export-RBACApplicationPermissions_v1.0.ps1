@@ -45,15 +45,15 @@ The script uses 2 mandatory parameters:
                     - Select "Get Data" and select "From File" and click "From Text/csv" and follow the prompts to import the data.
 
 .EXAMPLE
-.\Export-RBACApplicationPermissions_v0.2.ps1 -ExportRBACPermissions:All -OutputPath:'C:\temp'
+.\Export-RBACApplicationPermissions_v1.0.ps1 -ExportRBACPermissions:All -OutputPath:'C:\temp'
 The will export All the RBAC for Applications permissions to a file called "Export-RBAC_ApplicationPermissions_<timestamp>.csv" in the 'C:\temp' directory
 
 .EXAMPLE
-.\Export-RBACApplicationPermissions_v0.2.ps1 -ExportRBACPermissions:Graph -OutputPath:'C:\temp'
+.\Export-RBACApplicationPermissions_v1.0.ps1 -ExportRBACPermissions:Graph -OutputPath:'C:\temp'
 The will export the RBAC for Applications permissions used by the 'Microsoft Graph' API to a file called "Export-RBAC_ApplicationPermissions_<timestamp>.csv" in the 'C:\temp' directory
 
 .EXAMPLE
-.\Export-RBACApplicationPermissions_v0.2.ps1 -ExportRBACPermissions:EWS -OutputPath:'C:\temp'
+.\Export-RBACApplicationPermissions_v1.0.ps1 -ExportRBACPermissions:EWS -OutputPath:'C:\temp'
 The will export the RBAC for Applications permissions used by 'Exchange Web Services (EWS)' API to a file called "Export-RBAC_ApplicationPermissions_<timestamp>.csv" in the 'C:\temp' directory 
 
 
