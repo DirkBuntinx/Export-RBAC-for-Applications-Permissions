@@ -26,6 +26,15 @@ IMPORTANT: This is a READ ONLY script; it will only read information from Exchan
 .DESCRIPTION
 Script to export the RBAC for Applications permissions for each Service Principal in Exchange Online. 
 
+Special thanks to my colleagues for providing valuable feedback and validating the script’s functionality:
+-	Dan Bagley
+-	Smart Kamolratanapiboon
+-	Brij Raj Singh
+-	Angélique Conde
+-	Max Vaughn
+-	Bonny Eapen
+-	David Castro Koschny
+
 The script uses 2 mandatory parameters:
 ---------------------------------------
 
@@ -45,15 +54,15 @@ The script uses 2 mandatory parameters:
                     - Select "Get Data" and select "From File" and click "From Text/csv" and follow the prompts to import the data.
 
 .EXAMPLE
-.\Export-RBACApplicationPermissions_v1.0.ps1 -ExportRBACPermissions:All -OutputPath:'C:\temp'
+.\Export-RBACApplicationPermissions_v0.2.ps1 -ExportRBACPermissions:All -OutputPath:'C:\temp'
 The will export All the RBAC for Applications permissions to a file called "Export-RBAC_ApplicationPermissions_<timestamp>.csv" in the 'C:\temp' directory
 
 .EXAMPLE
-.\Export-RBACApplicationPermissions_v1.0.ps1 -ExportRBACPermissions:Graph -OutputPath:'C:\temp'
+.\Export-RBACApplicationPermissions_v0.2.ps1 -ExportRBACPermissions:Graph -OutputPath:'C:\temp'
 The will export the RBAC for Applications permissions used by the 'Microsoft Graph' API to a file called "Export-RBAC_ApplicationPermissions_<timestamp>.csv" in the 'C:\temp' directory
 
 .EXAMPLE
-.\Export-RBACApplicationPermissions_v1.0.ps1 -ExportRBACPermissions:EWS -OutputPath:'C:\temp'
+.\Export-RBACApplicationPermissions_v0.2.ps1 -ExportRBACPermissions:EWS -OutputPath:'C:\temp'
 The will export the RBAC for Applications permissions used by 'Exchange Web Services (EWS)' API to a file called "Export-RBAC_ApplicationPermissions_<timestamp>.csv" in the 'C:\temp' directory 
 
 
