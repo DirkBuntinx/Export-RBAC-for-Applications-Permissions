@@ -1,6 +1,15 @@
 # PowerShell-Export-RBAC-for-Applications-Permissions
  PowerShell script to Export RBAC for Applications Permissions from Exchange Online
- 
+
+Special thanks to my colleagues for providing valuable feedback and validating the script’s functionality:
+-	Dan Bagley
+-	Smart Kamolratanapiboon
+-	Brij Raj Singh
+-	Angélique Conde
+-	Max Vaughn
+-	Bonny Eapen
+-	David Castro Koschny
+
 SYNOPSIS
 Script to export the RBAC for Applications permissions for each Service Principal in Exchange Online.
 IMPORTANT: This is a READ ONLY script; it will only read information from Exchange Online and make no modifications to your tenant.
